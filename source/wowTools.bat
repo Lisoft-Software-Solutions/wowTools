@@ -73,8 +73,8 @@ start worldserver.exe
 echo. [LOG] Game Server Started Successfully
 timeout /t 20 /nobreak
 cd %~dp0
-:Notification1
-cscript //nologo "%~dp0Notification1.vbs" "%CLIENTDIR%"
+:alert1
+cscript //nologo "%~dp0alert1.vbs" "%CLIENTDIR%"
 cls
 "WoW Tools.bat"
 
