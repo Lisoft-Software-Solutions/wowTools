@@ -1,0 +1,16 @@
+wowTools 5 - Configuration Page
+SERVERDIR=noDATA
+-> SERVERDIR is the full directory that your game server is hosted inside. E.G. C:\"my cool game servers"\wowserver
+-> The folder your game server is in should have these folders inside "Core" "_Server" "Extras"
+
+CLIENTMOUNTPOINT=noDATA
+-> CLIENTMOUNTPOINT is the drive letter your game client is on. E.G. C: , F: , D:
+
+CLIENTDIR=noDATA
+-> CLIENTDIR is the full directory that your game client is hosted inside. E.G. E:\WorldofWarcraft
+-> The folder your game client is in should have the executible "Wow.exe" inside
+
+VERSION=wowTools 5
+-> The current version of wowTools. This is just for system refrance, it doesn't change the functionality of the script
+CONFIGURED=N
+-> If you are manually configuring via this txt, you can set the to 'Y'. If not leave it as it already was
